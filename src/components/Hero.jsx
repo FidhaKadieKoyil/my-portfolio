@@ -93,12 +93,12 @@ export default function Hero() {
 
             {/* DOWNLOAD RESUME */}
             <a
-              href="/resume.pdf"
-              download
-              className="px-6 py-3 rounded-lg bg-purple-600 hover:bg-purple-700 transition shadow-lg text-center"
-            >
-              ⬇️ Download Resume
-            </a>
+            href={import.meta.env.BASE_URL + "resume.pdf"}
+            download
+            className="px-6 py-3 rounded-lg bg-purple-600 hover:bg-purple-700 transition shadow-lg text-center"
+>
+            ⬇️ Download Resume
+           </a>
 
           </div>
         </motion.div>
